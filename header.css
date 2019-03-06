@@ -1,0 +1,47 @@
+.flex-top-header{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  height : 90px;
+  align-items: center;
+}
+
+.flex-item-info{
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.new-group{
+  padding: 3px 15px 3px 15px;
+  border-style: solid;
+  border-width :0 1px 0 0;
+  border-color: rgb(230,222,223);
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(68,160,195);
+}
+
+.login{
+  padding: 15px;
+
+}
+
+.sign-up{
+  padding: 15px 0 15px 15px;
+
+}
+.color-info{
+  color: rgb(131,139,145)
+}
+
+.color-info:hover {
+  color: rgb(68,160,195);
+
+}
+
+.flex-item-logo-url{
+}

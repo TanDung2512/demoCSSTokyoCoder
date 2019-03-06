@@ -1,0 +1,58 @@
+video {
+  pointer-events: none;
+  width:100%;
+  height: 100%;
+  position:absolute;
+}
+.trailer-section {
+  width :100%;
+  height:600px;
+}
+.trailer-layout{
+  position:relative;
+  height:100%;
+  width: 100%;
+}
+
+.trailer-word{
+  position: absolute;
+  font-family: "Roboto";
+  color : #FFF;
+   z-index: 2;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.trailer-word .word-top {
+  font-size : 40px;
+  font-weight: 600;
+}
+
+.trailer-word .word-middle {
+  font-size : 18px;
+}
+
+.trailer-layout{
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.trailer-submit{
+  margin : 40px;
+  padding: 20px 140px 20px 140px;
+  border-style: solid;
+  border-width: 0;
+  background-color: rgb(240,20,93);
+  font-family: "Roboto";
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.trailer-submit:hover{
+  background-color: rgb(255,20,93);
+}
